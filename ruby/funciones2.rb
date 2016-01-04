@@ -1,4 +1,4 @@
-# METODO DE ACCESO, no puede ser accedido por una variable fuera de el END
+
 class Car
   def initialize(color)
     @color = color
@@ -20,4 +20,4 @@ my_car.print_color
 other_car.print_color
 my_car.honk
 puts "=========================="
-#ACCESOR METHODS
+
