@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To-Do List</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="todo.css">
+    <script defer type="text/javascript" src="todo.js"></script>
+  </head>
+  <body>
+    <h1>What are you going to do today?</h1>
+    <div class="form">
+        <input type="text" id="todo-input"></input>
+        <input type="submit" id="save-button" value="Save"></input>
+    </div>
+    <div class="todo-list"> 
+      <h2>To Do</h2>
+     <ul id="todo-list-items"> <!--Is a class -->
+     <button id="done-button">Done</button>
+     <li> Finish this exercise </li>
+     <li> Give myself a high five!</li>
+        <!-- the addToDoItem function should add a new list item here -->
+      </ul>
+    </div>
+    <div id="done-list">
+      <h2>Done!</h2>
+      <ul id="done-list-items">   <!--Is a class -->
+        <li class="done">Read the chapter on DOM manipulation</li>
+        <!-- the markAsDone function should add a new list item here -->
+      </ul>
+    </div>
+  </body>
+</html>

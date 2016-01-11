@@ -1,0 +1,91 @@
+.articleContainer {
+	border: 5px dashed purple;
+	margin: auto;
+	padding: 10px;
+}
+
+.big {
+	font-family: Papyrus;
+	font-size: 40px;
+	width: 50%;
+	margin: auto;
+}
+
+.introImage {
+	width: 10%;
+	height: 10%;
+	float: left;
+	padding: 20px;
+	margin: auto;
+}
+
+.postAuthor {
+	font-size: 8px;
+	text-align: right;
+	float: right;
+	padding-top: 3%;
+	margin: auto;
+}
+
+.shadowedBox {
+  box-shadow:10px 5px 5px #888888;
+}
+
+article {
+	padding: 7%;
+}
+
+a:link {
+  color: #FFFFFF;
+}
+
+a:visited {
+` color: #CCCCCC;
+}
+
+a:hover {
+  color: #999999;
+}
+
+article{
+	width: 75%;
+	margin: auto;
+}
+
+body {
+	background-color: black;
+	color: rgb(250, 170, 60);
+	font-family: Verdana;
+	margin: auto;
+}
+
+footer{
+	background-color: #444444;
+	padding: 30px 10px;
+	border-top: 5px solid white;
+	color: white;
+	font-size: 10px;
+	font-style: italic;
+	width: 100%;
+	margin: auto;
+}
+
+header:hover{
+	background-color: white;
+	color: blue;
+}
+
+h1 {
+	font-size: 40px;
+	width: 100%;
+	margin: auto;
+}
+
+th, td{
+	border: 1px solid #FFFFFF;
+	width: 50%;
+	margin: auto;
+}
+
+
+

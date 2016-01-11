@@ -1,0 +1,83 @@
+* {
+	font-family: Verdana,Helvetica;
+	color: #808080;
+}
+
+a {
+	color: blue;
+}
+
+article {
+	width: 1000px;
+	height: 1000px;
+	background-color: #FA8072;
+	margin: 0px auto 0px;
+}
+
+article section {
+	background-color: #BFFF00;
+	float: left;
+}
+
+li { 
+    padding-left: 1em; 
+    text-indent: -.7em;
+}
+
+li:before {
+    content: "- ";
+}
+
+ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+.banner {
+	width: 100%;
+	height: 100px;
+	background-color: #BFFF00;
+	margin: 0px;
+}
+
+.duo {
+	width: 440px;
+	height: 600px;
+	margin: 30px;
+}
+
+#articleTitle {
+	font-size: 80px;
+	text-align: center;
+	
+}
+
+#bot {
+	width: 940px;
+	height: 300px;
+	margin: 0px 30px 30px;
+	font-size: 18px;
+}
+
+#legal {
+	font-size: 35px;
+	text-align: center;
+	margin: auto;
+	padding-top: 60px;
+}
+
+#movieTitle {
+	float: left;
+}
+
+#poster {
+	width: 100%;
+	height: 100%;
+}
+
+#relFilms li {
+display: inline;
+list-style-type: none;
+padding-right: 15px;
+}

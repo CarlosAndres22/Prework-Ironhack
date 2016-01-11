@@ -1,0 +1,93 @@
+
+ *{
+	margin:0;  /*Remove top margin*/
+}
+
+h1 {
+    
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    font-size: 2em;
+     
+}
+
+
+   article{
+
+	width: 1000px;
+	height: 1000px;
+	margin:0 auto;
+	
+ }
+
+	.header_footer{
+		width: 100%;
+		height: 100px;
+		background-color: rgba(39, 116, 130, 0.71);
+		line-height: 30px;    /*Align vertically the text. */
+	}
+	section {
+		float: left;	      /*Set elements align to the left*/
+	}
+
+	/*blocks of same size*/
+
+	.dimension_1{ 
+		width: 440px;
+		height: 600px;
+		margin: 30px;
+	}
+	img{
+		 box-shadow: 10px 10px 5px #888888;  /*Add a shadow to poster*/
+	}
+	p {
+    padding: 15px 20px;
+	}
+	.movie_poster{
+		width:440px;
+		height:600px;
+	}
+
+	
+	.dimension_2{
+		width: 940px;
+		height: 300px;
+		margin: 0 30px 30px;
+	}
+
+	.table_1,.table_2{
+		text-align: center;
+		margin: auto;
+		padding-top: 60px;
+		
+	}
+
+
+	a{
+	text-decoration:none;   /*Removes underlined word on link*/
+    }
+
+    a:link{
+  	color: rgba(0, 91, 128, 0.55);  
+}
+	
+
+/*link visited*/
+	a:visited {
+ 		color: #CCCCCC;
+}
+
+ a:hover {         /*Change the background color when mouse is pass over the footer*/
+  color: #999999;
+}
+
+
+
+	footer.header_footer {
+
+	    text-align: center;
+	    color: #767676;
+	    line-height: 70px; /*Align vertically the text. */
+
+}

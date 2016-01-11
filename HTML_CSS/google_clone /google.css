@@ -1,0 +1,139 @@
+
+body{
+	padding: 0 20px;
+}
+.nav_buttoms li ,.my_name{
+
+	text-decoration: none;
+	padding-right: 20px;
+	display: block;
+	float:left;
+
+
+}
+.my_name{
+	color: rgba(0, 0, 0, 0.36);
+
+}
+.nav_buttoms{
+	display:block;
+	float:right;
+	margin-top: 30px;
+	
+}
+
+
+li a{
+
+	text-decoration: none;
+	color: #000;
+	color:#666;
+}
+
+.initial{
+	width:18px;
+	height:18px;
+	border-radius:50%;
+	color:white;
+	background:#6AB05B;
+	margin-top: -9px;
+	padding: 9px !important;
+	text-align: center;
+	background-color: rgba(106,176,91,0.7);
+}
+.initial:hover{
+	cursor:pointer;
+	background-color: rgba(106,176,91,1);
+	/*Change color on 0.2 seg. 3 lines are for each browser*/
+	-webkit-transition: background-color 0.2s ease;
+    -moz-transition: background-color 0.2s ease;
+    -o-transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease;
+
+}
+
+a:hover{
+	text-decoration: underline;   
+}
+
+.google_image{
+
+	clear: right;  /*The clear property specifies on which sides of an element floating elements are not allowed to float:*/
+	width: 272px;
+	height: 92px;
+	margin:0 auto;     
+	display: block; /*Help me to center the element. Display all the element with more width(element inside other one)*/
+	padding-top: 109px;
+	padding-bottom: 20px;    
+
+}
+
+.google_search{
+	width: 500px;
+	height: 38px;
+	border: 1px solid gray;
+	margin: 0 auto;
+}
+.microphone{
+
+	height: 26px;
+	margin:0 auto;
+	padding-left: 460px;
+	padding-top: 7px;
+}
+
+.outer_buttoms{
+	padding-top: 20px;
+	display:block;
+
+}
+
+input.inside_buttoms{
+	display:inline-block;
+	margin: 0 6px;
+	height: 30px;
+	font-size: 13px;
+    font-weight: bold;
+    color: #757575;
+    background: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	font-family: arial,sans-serif;
+    padding:20px;
+    line-height: 5px;
+	
+}
+
+.header_footer{
+	
+	width: 70%;  /*Makes footer responsive. Left+right+left makes the 100% of website's width*/
+	left:15%;
+	height: 40px;
+	background: #f2f2f2;
+	position:absolute;  /*bottom anchor at 10% from website bottom. Adjust distance for any monitor size*/
+	bottom:10%;
+}
+
+#left_links,#right_links{
+	line-height: 40px;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+
+
+}
+ #left_links a.link_1,#left_links a.link_2,#left_links a.link_3{
+	padding-left: 20px;
+	text-decoration: none;
+	color:#666;
+	
+}
+
+ #right_links a.link_1,#right_links a.link_2,#right_links a.link_3{
+	padding-right: 20px;
+	text-decoration: none;
+	color:#666;
+	
+}
+#right_links{
+	float:right;
+}
+
